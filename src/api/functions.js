@@ -333,11 +333,11 @@ export const generateTodoAnalytics = base44.functions.generateTodoAnalytics;
 
 export const activateProductionPlan = base44.functions.activateProductionPlan;
 
-export const utils/withUserPermissions = base44.functions.utils/withUserPermissions;
+export const utilsWithUserPermissions = base44.functions['utils/withUserPermissions'];
 
-export const utils/withServiceRole = base44.functions.utils/withServiceRole;
+export const utilsWithServiceRole = base44.functions['utils/withServiceRole'];
 
-export const utils/withWebhookValidation = base44.functions.utils/withWebhookValidation;
+export const utilsWithWebhookValidation = base44.functions['utils/withWebhookValidation'];
 
 export const README = base44.functions.README;
 
@@ -411,37 +411,37 @@ export const initCustomRolePlaySession = base44.functions.initCustomRolePlaySess
 
 export const syncAllUsersToHighLevel = base44.functions.syncAllUsersToHighLevel;
 
-export const utils/DataValidationService = base44.functions.utils/DataValidationService;
+export const utilsDataValidationService = base44.functions['utils/DataValidationService'];
 
-export const utils/UnifiedContextBuilder = base44.functions.utils/UnifiedContextBuilder;
+export const utilsUnifiedContextBuilder = base44.functions['utils/UnifiedContextBuilder'];
 
-export const utils/BrandVoiceService = base44.functions.utils/BrandVoiceService;
+export const utilsBrandVoiceService = base44.functions['utils/BrandVoiceService'];
 
-export const utils/EnhancedCacheService = base44.functions.utils/EnhancedCacheService;
+export const utilsEnhancedCacheService = base44.functions['utils/EnhancedCacheService'];
 
-export const utils/ConsistencyAuditService = base44.functions.utils/ConsistencyAuditService;
+export const utilsConsistencyAuditService = base44.functions['utils/ConsistencyAuditService'];
 
-export const utils/UnifiedAIMiddleware = base44.functions.utils/UnifiedAIMiddleware;
+export const utilsUnifiedAIMiddleware = base44.functions['utils/UnifiedAIMiddleware'];
 
-export const utils/SharedKnowledgeService = base44.functions.utils/SharedKnowledgeService;
+export const utilsSharedKnowledgeService = base44.functions['utils/SharedKnowledgeService'];
 
-export const utils/BackwardsCompatibilityLayer = base44.functions.utils/BackwardsCompatibilityLayer;
+export const utilsBackwardsCompatibilityLayer = base44.functions['utils/BackwardsCompatibilityLayer'];
 
-export const utils/PerformanceMonitor = base44.functions.utils/PerformanceMonitor;
+export const utilsPerformanceMonitor = base44.functions['utils/PerformanceMonitor'];
 
-export const utils/MigrationTracker = base44.functions.utils/MigrationTracker;
+export const utilsMigrationTracker = base44.functions['utils/MigrationTracker'];
 
 export const getUnifiedAIStatus = base44.functions.getUnifiedAIStatus;
 
 export const README_OPERATION_SINGLE_BRAIN = base44.functions.README_OPERATION_SINGLE_BRAIN;
 
-export const utils/BehavioralProfileService = base44.functions.utils/BehavioralProfileService;
+export const utilsBehavioralProfileService = base44.functions['utils/BehavioralProfileService'];
 
-export const utils/PredictivePersonalizationService = base44.functions.utils/PredictivePersonalizationService;
+export const utilsPredictivePersonalizationService = base44.functions['utils/PredictivePersonalizationService'];
 
-export const utils/TwinMatchingService = base44.functions.utils/TwinMatchingService;
+export const utilsTwinMatchingService = base44.functions['utils/TwinMatchingService'];
 
-export const utils/SuccessPatternService = base44.functions.utils/SuccessPatternService;
+export const utilsSuccessPatternService = base44.functions['utils/SuccessPatternService'];
 
 export const analyzeBehavioralProfile = base44.functions.analyzeBehavioralProfile;
 
