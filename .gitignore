@@ -24,3 +24,38 @@ dist-ssr
 *.sw?
 
 .envnode_modules/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Nested repos
+PIPRO/
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
